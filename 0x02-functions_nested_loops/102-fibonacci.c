@@ -19,7 +19,7 @@ int main(void)
 		printf("%ld", sum);
 		if (c != 49)
 		{
-			printf(", ");
+		printf(", ");
 		}
 		f = s;
 		s = sum;
@@ -27,4 +27,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
-} 
+}
